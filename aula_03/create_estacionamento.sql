@@ -41,7 +41,7 @@ create table estaciona(
 	foreign key(Veiculo_placa) references veiculo(placa)
 );
 
-insert into cliente (cpf, nome, dtNasc) values
+insert into cliente values
 (12345678, 'João Silva', '1985-04-15'),
 (23456789, 'Maria Oliveira', '1990-02-25'),
 (34567890, 'Carlos Souza', '1982-11-03'),
@@ -53,7 +53,7 @@ insert into cliente (cpf, nome, dtNasc) values
 (90123456, 'José Lima', '1979-01-29'),
 (11223344, 'Juliana Martins', '1987-10-22');
 
-insert into modelo (codMod, Desc_2) values
+insert into modelo values
 (101, 'Sedan'),
 (102, 'Hatchback'),
 (103, 'Crossover'),
