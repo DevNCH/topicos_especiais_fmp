@@ -17,8 +17,8 @@ create table veiculo(
     Cliente_cpf integer not null,
 	cor varchar(20) not null,
     primary key(placa),
-    foreign key(codmodelo)references modelo(codmodelo),
-    foreign key (cpf)references cliente(cpf)
+    foreign key(Modelo_codMod) references modelo(codMod),
+    foreign key(Cliente_cpf) references cliente(cpf)
 );
 
 create table patio(
@@ -36,7 +36,7 @@ create table estaciona(
 	dtSaida varchar(10) not null,
 	hsEntrada varchar(10) not null,
 	hsSaida varchar(10) not null,
-	primary key(cod)
+	primary key(cod),
 	foreign key(Patio_num) references patio(num),
 	foreign key(Veiculo_placa) references veiculo(placa)
 );
