@@ -51,7 +51,12 @@ insert into cliente values
 (78901234, 'Ricardo Almeida', '1981-09-08'),
 (89012345, 'Camila Rocha', '1994-12-05'),
 (90123456, 'José Lima', '1979-01-29'),
-(11223344, 'Juliana Martins', '1987-10-22');
+(11223344, 'Juliana Martins', '1987-10-22'),
+(12398765, 'Lucas Pereira', '1993-08-15'),
+(23487654, 'Juliana Costa', '1987-11-02'),
+(34576543, 'Eduardo Almeida', '1995-06-19'),
+(45665432, 'Carla Rodrigues', '1983-02-28'),
+(56754321, 'Roberto Martins', '1979-10-05');
 
 insert into modelo values
 (101, 'Sedan'),
@@ -63,7 +68,12 @@ insert into modelo values
 (107, 'Conversível'),
 (108, 'Minivan'),
 (109, 'Esportivo'),
-(110, 'Furgão');
+(110, 'Furgão'),
+(111, 'Furgão'),
+(112, 'Híbrido'),
+(113, 'Elétrico'),
+(114, 'SUV Compacto'),
+(115, 'Van');
 
 insert into veiculo values
 ('ABC1234', 101, 12345678, 'Preto'),
@@ -76,6 +86,11 @@ insert into veiculo values
 ('GHI5432', 108, 89012345, 'Amarelo'),
 ('JKL8642', 109, 90123456, 'Roxo'),
 ('MNO7531', 110, 11223344, 'Laranja');
+('QWE1234', 111, 12398765, 'Preto'),
+('RTY5678', 112, 23487654, 'Branco'),
+('UJI4321', 113, 34576543, 'Vermelho'),
+('POL8765', 114, 45665432, 'Azul'),
+('MNB1357', 115, 56754321, 'Verde');
 
 insert into patio values
 (1, 'Rua das Flores, 123', 50),
@@ -87,7 +102,12 @@ insert into patio values
 (7, 'Rua do Sol, 404', 80),
 (8, 'Avenida Rio de Janeiro, 505', 150),
 (9, 'Rua dos Lírios, 606', 40),
-(10, 'Avenida Paulista, 707', 200);
+(10, 'Avenida Paulista, 707', 200),
+(11, 'Rua dos Cedros, 100', 60),
+(12, 'Avenida São Paulo, 250', 110),
+(13, 'Rua da Paz, 150', 90),
+(14, 'Avenida dos Coqueiros, 75', 140),
+(15, 'Rua do Bosque, 80', 200);
 
 insert into estaciona values
 (1, 1, 'ABC1234', '2025-03-01', '2025-03-01', '08:00', '10:00'),
@@ -99,4 +119,9 @@ insert into estaciona values
 (7, 7, 'DEF9876', '2025-03-07', '2025-03-07', '14:00', '16:00'),
 (8, 8, 'GHI5432', '2025-03-08', '2025-03-08', '15:30', '17:30'),
 (9, 9, 'JKL8642', '2025-03-09', '2025-03-09', '16:00', '18:00'),
-(10, 10, 'MNO7531', '2025-03-10', '2025-03-10', '17:00', '19:00');
+(10, 10, 'MNO7531', '2025-03-10', '2025-03-10', '17:00', '19:00'),
+(11, 1, 'QWE1234', '2025-03-11', '2025-03-11', '08:30', '10:30'),
+(12, 2, 'RTY5678', '2025-03-12', '2025-03-12', '09:00', '11:00'),
+(13, 3, 'UJI4321', '2025-03-13', '2025-03-13', '10:15', '12:15'),
+(14, 4, 'POL8765', '2025-03-14', '2025-03-14', '11:45', '13:45'),
+(15, 5, 'MNB1357', '2025-03-15', '2025-03-15', '13:00', '15:00');
